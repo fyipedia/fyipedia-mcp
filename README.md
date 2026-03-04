@@ -1,6 +1,6 @@
 # fyipedia-mcp
 
-Unified [MCP](https://modelcontextprotocol.io/) server for [FYIPedia](https://fyipedia.com) developer tools.
+Unified [MCP](https://modelcontextprotocol.io/) server for [FYIPedia](https://github.com/fyipedia) developer tools.
 
 One server, 30+ tools from 10 packages.
 
