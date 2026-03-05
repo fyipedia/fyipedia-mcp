@@ -21,6 +21,11 @@ Unified [MCP](https://modelcontextprotocol.io/) server for the [FYIPedia](https:
   - [Windsurf](#windsurf)
   - [Claude Code](#claude-code)
   - [Standalone](#standalone)
+- [What You Can Do](#what-you-can-do)
+  - [Color Analysis](#color-analysis)
+  - [Text & Encoding](#text--encoding)
+  - [Geography & Time](#geography--time)
+  - [Reference Data](#reference-data)
 - [Available Tools (53 total)](#available-tools-53-total)
   - [Color Tools (9 tools)](#color-tools-9-tools----colorfyi)
   - [Emoji Tools (7 tools)](#emoji-tools-7-tools----emojifyi)
@@ -121,6 +126,60 @@ Run the server directly for testing:
 ```bash
 python -m fyipedia_mcp.server
 ```
+
+## What You Can Do
+
+### Color Analysis
+
+AI assistants can use the 9 color tools to answer questions about color accessibility, design systems, and visual perception. Ask your assistant to check whether a text/background combination meets WCAG 2.1 AA or AAA standards, generate a Tailwind-style shade palette from a brand color, simulate how a UI appears to users with protanopia or deuteranopia, or mix two colors in perceptual Lab space for accurate blending.
+
+```
+"Check if #1A1A2E text on #F0F0F0 background passes WCAG AA"
+"Generate a shade palette from our brand blue #3B82F6"
+"How does #FF5733 look to someone with color blindness?"
+"What's the complementary color of #8B5CF6?"
+```
+
+Learn more: [ColorFYI](https://colorfyi.com/)
+
+### Text & Encoding
+
+The emoji, Unicode, and symbol tools give AI assistants access to 3,953 emoji metadata records, 17 Unicode encoding formats, and 11 symbol encoding representations. Your assistant can look up any emoji by keyword or character, encode text for HTML/CSS/JavaScript/Python, find Unicode character properties like script and bidirectional class, and reverse-lookup HTML entities.
+
+```
+"What's the Unicode codepoint for the fire emoji?"
+"Encode the copyright symbol for use in HTML, CSS, and JavaScript"
+"Search for all arrow-related Unicode characters"
+"What HTML entity represents the hearts symbol?"
+```
+
+Learn more: [EmojiFYI](https://emojifyi.com/) · [UnicodeFYI](https://unicodefyi.com/) · [SymbolFYI](https://symbolfyi.com/)
+
+### Geography & Time
+
+The 10 distance and time tools let AI assistants calculate great-circle distances using the Haversine formula, determine compass bearings between coordinates, find geographic midpoints, estimate travel times by car/train/plane, and handle timezone conversions across all IANA zones. Assistants can also find overlapping business hours across multiple time zones and look up sunrise/sunset times for any location.
+
+```
+"How far is it from Seoul to Tokyo, and what's the flight time?"
+"What time is it in New York when it's 9 AM in Seoul?"
+"Find overlapping business hours between London, Tokyo, and San Francisco"
+"When is sunrise today in Paris?"
+```
+
+Learn more: [DistanceFYI](https://distancefyi.com/) · [TimeFYI](https://timefyi.com/)
+
+### Reference Data
+
+The unit, font, holiday, and name tools provide AI assistants with structured reference data. Convert between 220 units across 20 measurement categories with Decimal precision. Look up Google Fonts metadata, CSS import snippets, and font pairing recommendations. Check public holidays for 100+ countries, calculate Easter dates, and find specific weekday occurrences. Romanize Korean text using the official Revised Romanization system and look up Five Elements for CJK stroke counts.
+
+```
+"Convert 185 centimeters to feet and inches"
+"What Google Fonts pair well with Inter for body text?"
+"Is December 25th a holiday in Japan?"
+"Romanize the Korean name 김민준"
+```
+
+Learn more: [UnitFYI](https://unitfyi.com/) · [FontFYI](https://fontfyi.com/) · [HolidayFYI](https://holidayfyi.com/) · [NameFYI](https://namefyi.com/)
 
 ## Available Tools (53 total)
 
