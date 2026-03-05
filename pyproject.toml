@@ -1,6 +1,6 @@
 [project]
 name = "fyipedia-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unified MCP server for FYIPedia tools — 30+ tools from 10 packages in one server."
 readme = "README.md"
 license = "MIT"
