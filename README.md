@@ -270,7 +270,7 @@ Part of the [FYIPedia](https://github.com/fyipedia) open-source developer tools 
 
 | Package | PyPI | npm | Description |
 |---------|------|-----|-------------|
-| [colorfyi](https://colorfyi.com/) | [`colorfyi`](https://pypi.org/project/colorfyi/) | [`colorfyi`](https://www.npmjs.com/package/colorfyi) | Color conversion, WCAG contrast, harmonies, 809 named colors |
+| [colorfyi](https://colorfyi.com/) | [`colorfyi`](https://pypi.org/project/colorfyi/) | [`@fyipedia/colorfyi`](https://www.npmjs.com/package/@fyipedia/colorfyi) | Color conversion, WCAG contrast, harmonies, 809 named colors |
 | [emojifyi](https://emojifyi.com/) | [`emojifyi`](https://pypi.org/project/emojifyi/) | [`emojifyi`](https://www.npmjs.com/package/emojifyi) | Emoji encoding & metadata for 3,953 Unicode emojis |
 | [symbolfyi](https://symbolfyi.com/) | [`symbolfyi`](https://pypi.org/project/symbolfyi/) | [`symbolfyi`](https://www.npmjs.com/package/symbolfyi) | Symbol encoding in 11 formats + Unicode properties |
 | [unicodefyi](https://unicodefyi.com/) | [`unicodefyi`](https://pypi.org/project/unicodefyi/) | [`unicodefyi`](https://www.npmjs.com/package/unicodefyi) | Unicode character lookup, 17 encodings + search |
