@@ -12,6 +12,33 @@ Unified [MCP](https://modelcontextprotocol.io/) server for the [FYIPedia](https:
   <img src="demo.gif" alt="fyipedia-mcp demo — MCP server for AI agents" width="800">
 </p>
 
+## Table of Contents
+
+- [Install](#install)
+- [Integration Guides](#integration-guides)
+  - [Claude Desktop](#claude-desktop)
+  - [Cursor](#cursor)
+  - [Windsurf](#windsurf)
+  - [Claude Code](#claude-code)
+  - [Standalone](#standalone)
+- [Available Tools (53 total)](#available-tools-53-total)
+  - [Color Tools (9 tools)](#color-tools-9-tools----colorfyi)
+  - [Emoji Tools (7 tools)](#emoji-tools-7-tools----emojifyi)
+  - [Symbol Tools (3 tools)](#symbol-tools-3-tools----symbolfyi)
+  - [Unicode Tools (4 tools)](#unicode-tools-4-tools----unicodefyi)
+  - [Font Tools (6 tools)](#font-tools-6-tools----fontfyi)
+  - [Distance Tools (5 tools)](#distance-tools-5-tools----distancefyi)
+  - [Time Tools (5 tools)](#time-tools-5-tools----timefyi)
+  - [Unit Tools (4 tools)](#unit-tools-4-tools----unitfyi)
+  - [Name Tools (4 tools)](#name-tools-4-tools----namefyi)
+  - [Holiday Tools (5 tools)](#holiday-tools-5-tools----holidayfyi)
+- [Architecture](#architecture)
+- [Features](#features)
+- [Also Available as CLI](#also-available-as-cli)
+- [FYIPedia Developer Tools](#fyipedia-developer-tools)
+- [Links](#links)
+- [License](#license)
+
 ## Install
 
 ```bash
