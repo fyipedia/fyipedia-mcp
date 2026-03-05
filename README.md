@@ -8,6 +8,10 @@ Unified [MCP](https://modelcontextprotocol.io/) server for the [FYIPedia](https:
 
 > **One config, 53 tools.** Works with [Claude Desktop](https://claude.ai/download), [Cursor](https://cursor.com/), [Windsurf](https://codeium.com/windsurf), [Continue](https://continue.dev/), and any [MCP-compatible](https://modelcontextprotocol.io/) client. Each package is loaded lazily -- only installed packages register their tools.
 
+<p align="center">
+  <img src="demo.gif" alt="fyipedia-mcp demo — MCP server for AI agents" width="800">
+</p>
+
 ## Install
 
 ```bash
