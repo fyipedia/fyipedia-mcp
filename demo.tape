@@ -1,20 +1,14 @@
 # fyipedia-mcp — Unified MCP Server Demo
 Output demo.gif
 
-Set FontSize 14
-Set Width 920
-Set Height 620
+Set FontSize 20
+Set Width 1000
+Set Height 580
 Set Shell "zsh"
 Set Theme "Catppuccin Mocha"
 Set TypingSpeed 30ms
-Set Padding 20
+Set Padding 24
 
-# Show Claude Desktop config
-Type `echo '{"mcpServers":{"fyipedia":{"command":"uvx","args":["fyipedia-mcp"]}}}' | jq .`
-Enter
-Sleep 2.5s
-
-# Install + REPL (uv creates temp env)
 Type "uv run --with fyipedia-mcp python3"
 Enter
 Sleep 2.5s
